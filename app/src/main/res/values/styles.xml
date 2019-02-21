@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+
+
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+    </style>
+
+</resources>

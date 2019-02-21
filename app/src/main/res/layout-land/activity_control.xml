@@ -1,0 +1,121 @@
+
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/socket_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="6"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".ControlActivity"
+
+    >
+
+    <LinearLayout
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_rowSpan="2"
+        android:layout_columnSpan="2"
+        android:id="@+id/layout_joystick"
+        android:layout_width="168dp"
+        android:layout_height="118dp"
+        android:orientation="vertical"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/image_button_bg"
+        >
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:layout_column="0"
+        android:layout_row="6"
+        android:layout_columnSpan="3"
+
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+
+        <RadioButton
+            android:id="@+id/firstGear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstGear"
+            android:buttonTint="@color/colorAccent"/>
+
+        <RadioButton
+            android:id="@+id/secondGear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/secondGear"
+            android:buttonTint="@color/colorAccent"/>
+
+        <RadioButton
+            android:id="@+id/thirdGear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thirdGear"
+            android:buttonTint="@color/colorAccent"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/Gear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_columnSpan="3"
+        android:layout_gravity="center"
+        android:layout_row="3"
+        android:gravity="center"
+
+        android:text="Gear"
+
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+
+
+        />
+
+    <WebView
+        android:id="@+id/webView"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill"
+        android:layout_row="0"
+        android:layout_rowSpan="8"
+        android:paddingTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <ToggleButton
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_row="0"
+        android:text="Ladunek"
+        android:layout_columnSpan="3"
+        android:gravity="center"
+        android:textOff="Close"
+        android:textOn="Open"
+
+
+        />
+
+</GridLayout>

@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">BoatController</string>
+    <string name="author_info">Author</string>
+    <string name="connect">Connect</string>
+    <string name="exit">Exit</string>
+    <string name="IPBoat">169.254.156.56</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="firstGear">1</string>
+    <string name="secondGear">2</string>
+    <string name="thirdGear">3</string>
+
+</resources>

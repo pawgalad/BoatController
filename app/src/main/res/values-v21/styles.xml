@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+
+        <item name="android:background">#B5CD9E</item>
+        <item name="colorPrimary">#E8E8E8</item>
+        <item name="android:button">@color/colorPrimary</item>
+        <item name="android:textColor">#191919</item>
+        <item name="android:fontStyle">italic</item>
+        <item name="android:colorBackground">@android:color/darker_gray</item>
+
+
+    </style>
+
+</resources>
